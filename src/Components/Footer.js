@@ -12,25 +12,25 @@ const Footer = () => {
             <div className='location'>
                <FaHome size={20} style={{color:"#fff", marginRight: '2rem'}} />
                 <div>
-                    <p>123 Housing Society</p>
-                    <p>Bangiladish</p>
+                    <p>Hossana</p>
+                    <p>Ethiopia</p>
                 </div>
             </div>
             <div className='phone'>
                 <h4><FaPhone size={20} 
-                style={{color:"#fff", marginRight: '2rem'}} />0925........</h4>
+                style={{color:"#fff", marginRight: '2rem'}} />+251 25580837</h4>
             </div>
             <div className='email'>
                 <h4><FaMailBulk size={20} 
-                style={{color:"#fff", marginRight: '2rem'}} />  mo@mail.com</h4>
+                style={{color:"#fff", marginRight: '2rem'}} />mo37085825@gmail.com</h4>
             </div>
          </div>
 
          <div className='right'>
-           <h4>About the Company</h4>
-           <p>This is me Fahimul Kebir. CEO $ Founder of 
-             Tech2etc. I enjoy discussing new projects and 
-             design challengs.
+           <h4>About Me</h4>
+           <p>I'm Mohemmed,<br/>
+           welcome to my portifolio! I show my amazing design and
+            development on creating highly user-friendly and responsive front-end websit 
            </p>
            <div className='social'>
                 <FaFacebook size={30} 

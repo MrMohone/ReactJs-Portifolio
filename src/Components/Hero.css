@@ -31,14 +31,19 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .content h1{
     font-size: 4rem;
     padding: .6rem 0 1.5rem;
 }
 .content p{
-    font-size: 1.4rem;
-    font-weight: 200;
+    font-size: 3.4rem;
+    font-weight: 700;
     text-transform: uppercase;
+    background: linear-gradient(270deg, #bf2575 12%,#efee34 100.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content .btn{
     margin: 1rem .2rem;
@@ -48,6 +53,6 @@
         font-size: 3rem;
     }
     .content p{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 }

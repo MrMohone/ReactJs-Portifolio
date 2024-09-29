@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { FaBars,FaTimes } from 'react-icons/fa'
+import logo from '../Components/Asset/nav_underline.svg'
 
 const Navbar = () => {
 
@@ -21,9 +22,12 @@ const Navbar = () => {
 
   return (
     <div className={color? 'header header-bg' : 'header' }>
-      <Link to='/'>
-        <h1>Portifolio</h1>
+     <div className='logo'>
+     <Link to='/'>
+        <h1>M</h1>
+        <img src={logo} />
       </Link>
+     </div>
       <ul className={click? 'nav-menu active' : 'nav-menu'}>
         <li>
             <Link to='/'>Home</Link>
@@ -41,8 +45,6 @@ const Navbar = () => {
       <div className='hamburger' onClick={handleClick}>
         {click? (<FaTimes size={20} style={{color:"red"}}/>) :
          ( <FaBars size={20} style={{color:"#fff"}}/>)}
-        
-       
       </div>
     </div>
   )
