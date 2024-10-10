@@ -4,7 +4,7 @@
     align-items: center;
     padding: 1rem;
     position: fixed;
-    z-index: 1;
+    z-index: 20;
     width: 100%;
     height: 90px;
 }
@@ -14,10 +14,10 @@
 .header h1{
     font-size: 90px;
     font-weight: 700;
-    padding: 20px 0 0 50px;
+    padding: 2px 0 0 50px;
     z-index: 100;
 }
-.header img{
+.logo1 img{
     position: absolute;
     bottom:  15%;
     right: -20px;
@@ -32,12 +32,21 @@
 .nav-menu{
     display: flex;
 }
+li img{
+    width: 70px;
+    height: 10px;
+    display: block;
+}
+li a:hover{
+    color: #85bcd0;
+     transition: ease-in-out .2s;
+}
 .nav-menu li{
     padding: 0 1rem;
 }
 .nav-menu li a{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 .hamburger{
     display: none;
@@ -69,3 +78,13 @@
         display: initial;
     }
 }
+@media (max-width: 550px){
+.header h1{
+    font-size: 70px;
+    padding: 2px 0 0 30px;
+}
+.header img{
+    width: 100px;
+    height: 40px;
+}
+}     

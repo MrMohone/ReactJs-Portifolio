@@ -5,7 +5,7 @@ import { FaBars,FaTimes } from 'react-icons/fa'
 import logo from '../Components/Asset/nav_underline.svg'
 
 const Navbar = () => {
-
+    const [underline, setUderline] = useState("home")
     const [click, setClick] = useState(false)
     const handleClick = ()=> setClick(!click)
 
@@ -20,26 +20,27 @@ const Navbar = () => {
     }
     window.addEventListener('scroll', changeColor);
 
+
   return (
     <div className={color? 'header header-bg' : 'header' }>
      <div className='logo'>
-     <Link to='/'>
+     <Link to='/' className='logo1'>
         <h1>M</h1>
-        <img src={logo} />
+        <img src={logo}/>
       </Link>
      </div>
       <ul className={click? 'nav-menu active' : 'nav-menu'}>
         <li>
-            <Link to='/'>Home</Link>
+            <Link to='/'> Home </Link>
         </li>
         <li>
-            <Link to='/project'>Project</Link>
+            <Link to='/project' onClick={()=>setUderline('project')}> Project </Link> 
         </li>
         <li>
-            <Link to='/about'>About</Link>
+            <Link to='/about' onClick={()=>setUderline('about')}> About </Link> 
         </li>
         <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/contact' onClick={()=>setUderline('contact')}> Contact </Link> 
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

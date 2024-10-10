@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     background-color: #000;
-    opacity: .8;
+    opacity: .6;
 }
 .hero{
     height: 100%;
@@ -47,6 +47,20 @@
 }
 .content .btn{
     margin: 1rem .2rem;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 50px;
+}
+.content .icons h1{
+    color: #07b8f8;
+    transition: ease-in-out .3s;
+}
+.icons h1:hover{
+    transform: scale(1.4);
 }
 @media screen and (max-width:640px) {
     .content h1{

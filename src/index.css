@@ -7,6 +7,7 @@
 }
 body{
   background: #000;
+
 }
 h1,h4,p,a{
   color: #fff;
@@ -19,8 +20,8 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgba(248,217,15);
-  color: #222;
+  background: #02212d;
+  color: #fff;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;

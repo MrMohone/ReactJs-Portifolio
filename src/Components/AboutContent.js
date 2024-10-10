@@ -8,8 +8,8 @@ const AboutContent = () => {
   return (
     <div className='about'>
         <div className='left'>
-            <h1>Who Im I?</h1>
-            <p>Im a react frotend Developer. I create responsive secure website from my clients</p>
+            <h1>Who I'm I?</h1>
+            <p>I'm a react frotend Developer. I can to create responsive, animated and secured websites for my clients</p>
             <Link to='/contact'>
                <button className='btn'>Contact</button>
              </Link>

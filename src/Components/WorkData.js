@@ -13,13 +13,13 @@ const ProjectCardData = [
         imagesrc: pro2,
         title:"ToDo List",
         text: "Functional todo list app",
-        view: "https://mrmohone.github.io/TodoList-/"
+        view: "https://mrmohone.github.io/TodoList/"
     },
     {
         imagesrc: pro3,
         title:"Quiz App",
         text: "Highly secured quiz app",
-        view: " https://mrmohone.github.io/Quiz-App/"
+        view: "https://mrmohone.github.io/Quiz-App/"
     }
     
 ]
